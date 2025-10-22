@@ -10,10 +10,7 @@ The codebase is modular, separating **preprocessing**, **modeling**, and **train
 knee-xray-classification/
 │
 ├── data/
-│ └── dataset/ # X-ray images (excluded from Git)
-│
-├── notebooks/
-│ └── exploratory.ipynb # Optional for data exploration
+│ └── dataset/ # X-ray images=
 │
 ├── src/
 │ ├── preprocessing.py # Image loading, cleaning, augmentation
@@ -54,11 +51,14 @@ source venv/bin/activate     # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt 
 
+```
+
 ## 🚀 Usage
 
 Run the end-to-end pipeline:
+```bash
 python main.py
-
+```
 ## 📚 Citation
 
 If you use this repository or any part of the codebase in your research or project, please cite it as follows:
